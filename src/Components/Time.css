@@ -1,0 +1,105 @@
+body {
+  background-color: hsl(216deg, 12%, 8%) !important;
+}
+
+button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: hsl(264deg, 100%, 99%);
+  cursor: pointer;
+}
+
+button.active,
+button:hover {
+  color: hsl(244deg, 100%, 84%);
+}
+
+.greyLight {
+  color: hsl(244deg, 100%, 84%);
+}
+
+/*** HEADER - NAV ***/
+.containerLeftTop {
+  background-color: hsl(246deg, 80%, 60%);
+  color: hsl(264deg, 100%, 99%);
+  position: relative;
+  z-index: 2;
+  top: 10px;
+}
+
+.containerLeftBottom {
+  background-color: hsl(236deg, 44%, 20%);
+  color: hsl(244deg, 100%, 84%);
+}
+
+/*** Categories ***/
+.containerContent {
+  background-color: hsl(236deg, 44%, 20%);
+  color: hsl(264deg, 100%, 99%);
+  position: relative;
+  z-index: 2;
+  top: -10px;
+}
+
+.categories {
+  position: relative;
+  top: 10px;
+}
+
+.containerIcon {
+  height: 45px;
+}
+.containerIcon img {
+  display: block;
+  margin: auto;
+}
+
+.icon0 {
+  background-color: hsl(15deg, 100%, 70%);
+  background-image: url("./assets/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.icon1 {
+  background-color: hsl(195deg, 74%, 62%);
+  background-image: url("./assets/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.icon2 {
+  background-color: hsl(348deg, 100%, 68%);
+  background-image: url("./assets/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.icon3 {
+  background-color: hsl(145deg, 58%, 55%);
+  background-image: url("./assets/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.icon4 {
+  background-color: hsl(263deg, 63%, 51%);
+  background-image: url("./assets/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.icon5 {
+  background-color: hsl(43deg, 84%, 65%);
+  background-image: url("./assets/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+@media screen and (min-width: 992px) {
+  .containerLeftTop,
+.containerLeftBottom {
+    height: 50%;
+  }
+}/*# sourceMappingURL=Time.css.map */
